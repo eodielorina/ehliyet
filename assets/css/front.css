@@ -1,0 +1,367 @@
+:root {
+    --purple: #273250;
+    --wrapper-width: 75%;
+    --wrapper-width-xl: 60%;
+}
+
+body,
+.nav-link {
+    color: var(--purple)!important;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none!important;
+}
+
+h6.font-weight-bold {
+    font-size: 1.2rem!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.font-weight-bold {
+    font-weight: 600;
+}
+
+.modal-content {
+    border-radius: .8rem!important;
+}
+
+.buttonDefault,
+#loginBtn {
+    color: #ffffff;
+    font-weight: 500;
+    background-color: rgb(37, 99, 255);
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.26);
+    transition: 0.2s;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+#loginBtn {
+    background: rgba(237, 119, 14, 1);
+    color: #fff!important;
+    margin-left: 10px;
+}
+
+#loginBtn:hover {
+    opacity: .8;
+}
+
+.page-wrapper {
+    width: var(--wrapper-width);
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.pricing-title {
+    font-weight: 900;
+    margin-top: 13px;
+}
+
+.satinAlindiBtn {
+    background-color: #E3E3E3;
+}
+
+.pricing-card {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.border-radius {
+    border-radius: 1.1rem;
+}
+
+.accordion-button {
+    border: 0 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+#faq {
+    border-radius: .6rem;
+    padding-bottom: 50px;
+}
+
+#fa .accordion-header {
+    background: transparent!important;
+}
+
+#faq .accordion-body,
+.accordion-button {
+    background-color: rgb(245, 247, 250) !important;
+}
+
+#faq .accordion-item {
+    border: 0;
+    margin-top: 10px;
+}
+
+.buttonDefault:hover {
+    opacity: 0.8;
+    color: #ffffff!important;
+}
+
+#faq .accordion-button {
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--purple)!important;
+}
+
+.bg-purple {
+    background: var(--purple)!important;
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+footer {
+    background: var(--purple);
+}
+
+.div-watsup {
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+
+.footer-parent {
+    width: var(--wrapper-width);
+    margin: 0 auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    color: #ffffff;
+}
+
+.footer-link:hover {
+    color: lightgray;
+}
+
+
+/* Slider */
+
+#slider {
+    min-height: 90vh;
+    background-image: url("../images/slider_background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.code-sinavi-text {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.slider-left-content {
+    width: 85%;
+}
+
+
+/* Neler yapabilirsiniz? */
+
+#neler-yapabilir .card {
+    min-height: 350px;
+    position: relative;
+    border: none;
+}
+
+#neler-yapabilir .card-body {
+    padding: 0;
+}
+
+#neler-yapabilir .card p:last-child {
+    position: absolute;
+    bottom: 0;
+}
+
+.text-pink {
+    color: rgb(247, 140, 149);
+}
+
+.bg-light-pink {
+    background: rgb(255, 236, 239);
+}
+
+.bg-light-blue {
+    background: rgb(244, 244, 255);
+}
+
+.bg-light-success {
+    background: rgb(228, 255, 238);
+}
+
+
+/* tANITIM */
+
+.videoPresentation {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Modal Front */
+
+.modal-front p {
+    font-size: 14px;
+}
+
+.modal-front .modal-front {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.modal-header {
+    padding-right: 0;
+}
+
+.close-modal {
+    padding: 0;
+}
+
+
+/* Modal İstatistik */
+
+#modalIstatistik .modal-body {
+    padding-left: 50px!important;
+    padding-right: 80px !important;
+}
+
+.statistic-item,
+.istatistik-text {
+    border-radius: .5rem;
+    padding: 7px;
+}
+
+.istatistik-text {
+    background-color: #252F52;
+    color: #fff;
+}
+
+.statistic-item {
+    font-size: 13px;
+}
+
+.statistic-item p {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+}
+
+.falseResponse {
+    background: #FFB7B8;
+}
+
+.trueResponse {
+    background: #B9F8CB;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: .975rem;
+    }
+    .page-wrapper,
+    .footer-parent {
+        width: 100%!important;
+        margin: 0 auto;
+    }
+    .descript-content,
+    .w-xs-100 {
+        width: 100%!important;
+    }
+    h6.font-weight-bold {
+        font-size: 1.3rem!important;
+    }
+    #navbarNav {
+        background: #CDD9E7;
+    }
+    .div-watsup {
+        right: 5%;
+    }
+    .navbar-toggler {
+        margin-right: -10px;
+    }
+    .code-sinavi-text {
+        font-size: 1.675rem;
+    }
+    .slider-left-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .buttonDefault {
+        font-size: .8rem;
+    }
+    #neler-yapabilir .card {
+        min-height: 310px;
+    }
+    #neler-yapabilir .card p:last-child {
+        bottom: auto;
+    }
+    .videoPresentation {
+        height: 350px;
+    }
+    /* Menu mobile */
+    #loginBtn {
+        margin-left: 0;
+        text-align: center!important;
+    }
+    #navbarNav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        padding: 0;
+        transition: all 2s;
+    }
+    #navbarNav .nav-item {
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffff;
+        padding: 20px;
+    }
+    #navbarNav .nav-link {
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 1000ms ease-in-out;
+    }
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 1000ms ease-in-out;
+    }
+    .price {
+        width: 120px;
+    }
+    .btn {
+        padding: 0.25rem 0.5rem;
+        font-size: .875rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page-wrapper {
+        width: var(--wrapper-width-xl);
+    }
+    .footer-parent {
+        width: var(--wrapper-width-xl);
+    }
+}

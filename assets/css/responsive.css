@@ -1,0 +1,37 @@
+@media (max-width: 1366px){
+    .titre{margin-top: -50px;position:absolute;}
+    .img1{margin-top: -50px;position:absolute;right: 100px;}
+}
+@media (max-width: 992px){
+    .Hamburger{margin-right: -150px;}
+    .titre,.img1,.section1{margin-top: -600px;}
+    .btn1{ margin-top: -60px; }
+    .titre2,.img3,.titre3{margin-top: -60px;}  
+}
+@media (max-width:767px){
+.titre{margin-top: -180px;}
+.img1{margin-top: -400px;left: 40px;}
+.section1{margin-top: -200px;}
+.btn1{ margin-top: -40px; }
+.section2{margin-top: -55px;}
+}
+@media (max-width:700px){
+    .Hamburger{margin-right: -50px;}
+}
+@media (max-width:600px){
+    .Hamburger{margin-right: -20px;}
+}
+
+@media (max-width:575px){
+    .card1,.card2{margin-top: -70px;}
+    .section2{margin-top: -55px;} 
+    .Hamburger{margin-right: 20px;}
+
+}
+@media (max-width:500px) {
+    .img1{margin-top: -600px;}
+    .section1{margin-top: -350px;}  
+}
+@media (max-width:375px){
+    .arabaimg{margin-top: 70px;}
+}
